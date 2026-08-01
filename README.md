@@ -1,18 +1,13 @@
 <div align="center">
 
-<h1>Caio Segovia</h1>
+Caio Segovia
 
-<p>
-  <strong>Site Reliability Engineer · Platform Engineering · DevOps · Cloud</strong>
-</p>
+Site Reliability Engineer · Platform Engineer · DevOps · Cloud
 
-<p>
-  <em>Building reliable systems, observable platforms and useful tools.</em>
-</p>
+Building reliable systems. Engineering resilient platforms.
 
 </div>
 
-```console
 caio@github:~$ whoami
 Caio Segovia
 
@@ -21,7 +16,7 @@ Site Reliability Engineer
 Platform Engineer
 
 caio@github:~$ uptime
-15+ years building, operating and improving critical systems.
+12+ years building, operating and improving critical systems.
 
 caio@github:~$ cat /etc/specialties
 Infrastructure
@@ -29,90 +24,77 @@ Cloud Computing
 Site Reliability Engineering
 Observability
 Performance Engineering
-Platform Engineering
+Automation
 
-caio@github:~$ cat /etc/principles
-Build reliable systems.
-Automate repetitive work.
-Measure before optimizing.
-Learn from every failure.
+caio@github:~$ ls ~/projects
 
-caio@github:~$ cat /etc/interests
-Open Source
-Sim Racing Telemetry
-Astronomy & Astrophotography
+live-timing/
+lmu-telemetry/
+observability/
+automation/
 
 caio@github:~$ cat /etc/philosophy
 "Ideas are bulletproof."
-```
 
----
+caio@github:~$
 
-## About me
+About
 
-Infrastructure and reliability engineer with more than a decade of experience building, operating and improving critical environments.
+I'm an Infrastructure and Site Reliability Engineer passionate about building platforms that are reliable, observable and scalable.
 
-My work lives at the intersection of **SRE, cloud infrastructure, observability, automation and performance engineering**.
+Most of my work revolves around cloud infrastructure, Kubernetes, automation, telemetry, observability and performance engineering.
 
-Outside traditional infrastructure work, I enjoy transforming ideas into practical tools involving telemetry, real-time data, dashboards and sim racing.
+When I'm not working you'll probably find me building tools for sim racing, photographing the night sky or contributing to personal projects.
 
----
-
-## Tech stack
+Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,python,bash,linux,docker,kubernetes,terraform,ansible,aws,gcp,azure,postgres,mysql,git,githubactions,grafana,prometheus,vscode" alt="Technology stack" />
+<img src="https://skillicons.dev/icons?i=go,python,bash,linux,docker,kubernetes,terraform,ansible,aws,gcp,azure,postgres,mysql,git,githubactions,grafana,prometheus,vscode" />
 
 </div>
 
-<br>
+System Status
 
-```text
-Infrastructure    Linux · Docker · Kubernetes · Terraform · Ansible
-Cloud             AWS · Azure · Google Cloud
-Observability     Grafana · Prometheus · Dynatrace · Datadog · Elastic
-Development       Go · Python · Bash · SQL
-CI/CD             GitHub Actions · GitLab CI · Jenkins · Argo CD
-```
+caio@github:~$ systemctl --type=service --state=running
 
----
+● live-timing.service
+  Status : active
+  Purpose: Real-time racing timing platform
 
-## Currently building
+● telemetry-collector.service
+  Status : active
+  Purpose: Shared Memory → InfluxDB → Grafana
 
-### 🏁 Potatos RacerSIM Live Timing
+● observability.service
+  Status : active
+  Purpose: Dashboards, metrics and reliability
 
-A real-time platform for collecting, processing and displaying racing session data.
+● automation.service
+  Status : active
+  Purpose: Eliminating toil one script at a time
 
-```text
-Live sessions · Driver tracking · Lap history · Sector analysis · Track map
-```
-
-### 📡 LMU Telemetry Collector
-
-A high-frequency telemetry collector for Le Mans Ultimate using shared memory.
-
-```text
-Shared Memory → Python Collector → InfluxDB → Grafana
-```
-
-### 📊 Observability and Automation
-
-Tools and experiments focused on reliability, visibility, capacity and performance.
-
-```text
-Metrics · Dashboards · Alerting · Performance testing · Incident analysis
-```
-
----
-
-## GitHub metrics
+Featured Projects
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=caiosegovia&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b91c1c&icon_color=b91c1c&text_color=ffffff" alt="Caio Segovia GitHub statistics" />
+<a href="https://github.com/caiosegovia/live-timming-ams2">
+<img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=caiosegovia&repo=live-timming-ams2&hide_border=true&bg_color=0d1117&title_color=b91c1c&icon_color=b91c1c&text_color=ffffff" />
+</a>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiosegovia&layout=compact&hide_border=true&bg_color=0d1117&title_color=b91c1c&text_color=ffffff" alt="Most used languages" />
+<a href="https://github.com/caiosegovia">
+<img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=caiosegovia&repo=REPLACE_WITH_SECOND_REPO&hide_border=true&bg_color=0d1117&title_color=b91c1c&icon_color=b91c1c&text_color=ffffff" />
+</a>
+
+</div>
+
+GitHub Metrics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=caiosegovia&show_icons=true&hide_border=true&theme=transparent&title_color=b91c1c&icon_color=b91c1c&text_color=ffffff" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiosegovia&layout=compact&hide_border=true&theme=transparent&title_color=b91c1c&text_color=ffffff" />
 
 </div>
 
@@ -120,42 +102,24 @@ Metrics · Dashboards · Alerting · Performance testing · Incident analysis
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=caiosegovia&hide_border=true&background=0D1117&ring=B91C1C&fire=B91C1C&currStreakLabel=B91C1C&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=caiosegovia&theme=dark&hide_border=true&background=0D1117&ring=B91C1C&fire=B91C1C&currStreakLabel=B91C1C" />
 
 </div>
 
----
-
-## Contribution activity
+Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=caiosegovia&bg_color=0d1117&color=ffffff&line=b91c1c&point=ffffff&area=true&area_color=7f1d1d&hide_border=true" alt="GitHub contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=caiosegovia&bg_color=0d1117&color=ffffff&line=b91c1c&point=ffffff&area=true&area_color=7f1d1d&hide_border=true" />
 
 </div>
 
----
-
-## Contribution snake
-
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/caiosegovia/caiosegovia/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
+"Remember, remember the Fifth of November."
 
-</div>
+Ideas are bulletproof.
 
----
-
-<div align="center">
-
-<p>
-  <em>Remember, remember the Fifth of November.</em>
-</p>
-
-<h2>Ideas are bulletproof.</h2>
-
-<p>
-  <code>Build → Measure → Automate → Improve</code>
-</p>
+Build → Measure → Automate → Improve
 
 </div>
